@@ -1,0 +1,71 @@
+<ion-view title="Bedöm återkoppling 2" id="page99">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon No Icon"> STL</button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <button id="bedMTerkoppling2-button299" style="text-align:left;" class="button button-positive button-block">Visa återkoppling 2</button>
+    <h4 id="bedMTerkoppling2-heading139" style="color:#FF6600;text-align:center;">Bedöm återkoppling 2</h4>
+    <h5 id="bedMTerkoppling2-heading140" style="color:#FF6600;text-align:center;">Uppgift 1</h5>
+    <div class="spacer" style="width: 300px; height: 11px;"></div>
+    <h4 id="bedMTerkoppling2-heading141" style="color:#000000;text-align:center;"></h4>
+    <ion-list id="bedMTerkoppling2-list38">
+      <ion-item class="item-divider" id="bedMTerkoppling2-list-item-divider20"> 1=mycket dålig, 5=mycket bra</ion-item>
+    </ion-list>
+    <form id="bedMTerkoppling2-form23" class="list">
+      <ion-item id="bedMTerkoppling2-list-item114">Koppling till mål</ion-item>
+      <div id="bedMTerkoppling2-button-bar102" class="button-bar">
+        <button id="bedMTerkoppling2-button300" ng-class="{'active': activeSection==1}" ng-click="changeSection(1)" class="button button-positive button-block">1</button>
+        <button id="bedMTerkoppling2-button301" ng-class="{'active': activeSection==2}" ng-click="changeSection(2)" class="button button-positive button-block">2</button>
+        <button id="bedMTerkoppling2-button302" ng-class="{'active': activeSection==3}" ng-click="changeSection(3)" class="button button-positive button-block">3</button>
+        <button id="bedMTerkoppling2-button303" ng-class="{'active': activeSection==4}" ng-click="changeSection(4)" class="button button-positive button-block">4</button>
+        <button id="bedMTerkoppling2-button304" ng-class="{'active': activeSection==5}" ng-click="changeSection(5)" class="button button-positive button-block">5</button>
+      </div>
+      <label class="item item-select" id="bedMTerkoppling2-select6">
+        <span class="input-label">Timing</span>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </label>
+      <label class="item item-select" id="bedMTerkoppling2-select7">
+        <span class="input-label">Budskap</span>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </label>
+      <ion-item class="item-divider" id="bedMTerkoppling2-list-item-divider21"> 1=Inte alls konstruktiva</ion-item>
+      <ion-item class="item-divider" id="bedMTerkoppling2-list-item-divider22"> 5=Mycket konstruktiva</ion-item>
+      <label class="item item-select" id="bedMTerkoppling2-select8">
+        <span class="input-label">Råd/förslag</span>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </label>
+      <div class="item item-body" id="bedMTerkoppling2-list-item-container26">
+        <div id="bedMTerkoppling2-markdown122" class="show-list-numbers-and-dots">
+          <p style="margin-top:0px;color:#000000;">Kommentarer</p>
+        </div>
+      </div>
+      <label class="item item-input" id="bedMTerkoppling2-input10">
+        <input type="text" placeholder="Write your text here!">
+      </label>
+      <ion-item class="item-divider" id="bedMTerkoppling2-list-item-divider23"> Typ av återkoppling</ion-item>
+      <ion-radio id="bedMTerkoppling2-radio7">Personlig</ion-radio>
+      <ion-radio id="bedMTerkoppling2-radio8">Uppgiftsorienterad</ion-radio>
+      <ion-radio id="bedMTerkoppling2-radio9">Processorienterad</ion-radio>
+      <ion-radio id="bedMTerkoppling2-radio10">Generell</ion-radio>
+      <a ui-sref="menu.fRdigUppgift()" id="bedMTerkoppling2-button305" class="button button-positive button-block">Skicka</a>
+    </form>
+  </ion-content>
+</ion-view>

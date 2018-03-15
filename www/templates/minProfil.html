@@ -1,0 +1,28 @@
+<ion-view title="Min profil" id="page2">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon No Icon"> STL</button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header" ng-controller="MyProfileFullCtrl"> 
+    <div>
+      <img src="img/EKP4Gwl7SD2AfD3nfPPh_person_icon.jpg" style="display: block; width: 40%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <h4 id="minProfil-heading129" style="color:#000000;font-weight:300;text-align:center;">{{user[0] .first_name}}  {{user[0].last_name}}</h4>
+    <div class="spacer" style="width: 300px; height: 9px;"></div>
+    <h5 id="minProfil-heading128" style="color:#000000;">Personuppgifter</h5>
+    <ion-list id="minProfil-list17">
+      <ion-item class="item-icon-left" id="minProfil-list-item102">
+        <i class="icon ion-ios-person-outline"></i>{{user[0].first_name}}  {{user[0].last_name}}</ion-item>
+      <ion-item class="item-icon-left" id="minProfil-list-item103">
+        <i class="icon ion-ios-email-outline"></i>{{user[0].email}}</ion-item>
+      <ion-item class="item-icon-left" id="minProfil-list-item107">
+        <i class="icon ion-ios-telephone"></i>{{user[0].telephone}}</ion-item>
+      <ion-item class="item-icon-left" id="minProfil-list-item108">
+        <i class="icon ion-android-globe"></i>{{user[0].city_name}}</ion-item>
+      <ion-item class="item-icon-left" id="minProfil-list-item109">
+        <i class="icon ion-home"></i>{{user[0].school_name}}</ion-item>
+    </ion-list>
+    <div class="spacer" style="width: 300px; height: 14px;"></div>
+    <a ui-sref="menu.minaResultat()" id="minProfil-button1" style="text-align:left;" class="button button-positive button-block">Mina resultat</a>
+    <a ui-sref="menu.sjLvbedMningar()" id="minProfil-button2" style="text-align:left;" class="button button-positive button-block">Självbedömning</a>
+  </ion-content>
+</ion-view>

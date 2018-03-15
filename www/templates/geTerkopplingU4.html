@@ -1,0 +1,40 @@
+<ion-view title="Ge återkoppling U4" id="page58">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon No Icon"> STL</button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <ion-list id="geTerkopplingU4-list98">
+      <ion-item class="item-icon-right positive" id="geTerkopplingU4-list-item243" ui-sref="menu.meddelanden()">Meddelanden (2)
+        <i class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+      <ion-item class="item-icon-right positive" id="geTerkopplingU4-list-item244" ui-sref="menu.pGEnde()">Visa uppgift
+        <i class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+      <ion-item class="item-icon-right positive" id="geTerkopplingU4-list-item245" ui-sref="menu.Terkoppling2()">Instruktioner för återkoppling
+        <i class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <h4 id="geTerkopplingU4-heading74" style="color:#DF1818;text-align:center;">Återkoppling uppgift 4</h4>
+    <form id="geTerkopplingU4-form9" class="list">
+      <label class="item item-input" id="geTerkopplingU4-input16">
+        <span class="input-label">Mål</span>
+        <input type="text" placeholder="Skriv här" ng-model="data.goal">
+      </label>
+      <label class="item item-input" id="geTerkopplingU4-input17">
+        <span class="input-label">Budskap</span>
+        <input type="text" placeholder="Skriv här" ng-model="data.message">
+      </label>
+      <label class="item item-input" id="geTerkopplingU4-input18">
+        <span class="input-label">Råd/förslag</span>
+        <input type="text" placeholder="Skriv här" ng-model="data-advice">
+      </label>
+      <label class="item item-input" id="geTerkopplingU4-input19">
+        <span class="input-label">Kommentarer</span>
+        <input type="text" placeholder="Skriv här" ng-model="data.comment">
+      </label>
+      <a ui-sref="menu.Terkoppling()" id="geTerkopplingU4-button105" class="button button-positive button-block">Skicka</a>
+    </form>
+  </ion-content>
+</ion-view>

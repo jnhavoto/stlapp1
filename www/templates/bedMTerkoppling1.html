@@ -1,0 +1,63 @@
+<ion-view title="Bedöm återkoppling 1" id="page53">
+  <ion-nav-buttons side="right" class="has-header">
+    <button class="button button-icon icon No Icon"> STL</button>
+  </ion-nav-buttons>
+  <ion-content padding="true" class="has-header">
+    <a href-inappbrowser="page51" id="bedMTerkoppling1-button103" style="text-align:left;" class="button button-dark button-block button-outline">Se återkoppling 2</a>
+    <div class="spacer" style="width: 300px; height: 10px;"></div>
+    <h4 id="bedMTerkoppling1-heading49" style="color:#0C14F5;text-align:center;">Din bedömning</h4>
+    <ion-list id="bedMTerkoppling1-list32">
+      <ion-item class="item-divider" id="bedMTerkoppling1-list-item-divider16"> 1=mycket dålig, 5=mycket bra</ion-item>
+    </ion-list>
+    <div class="spacer" style="width: 300px; height: 13px;"></div>
+    <form id="bedMTerkoppling1-form10" class="list">
+      <ion-item id="bedMTerkoppling1-list-item104">Koppling till mål</ion-item>
+      <div id="bedMTerkoppling1-button-bar61" class="button-bar">
+        <button id="bedMTerkoppling1-button133" ng-class="{'active':activeSection==1}" class="button button-positive button-block">1</button>
+        <button id="bedMTerkoppling1-button138" ng-class="{'active': activeSection==2}" ng-click="changeSection(2)" class="button button-positive button-block">2</button>
+        <button id="bedMTerkoppling1-button142" ng-class="{'active': activeSection==3}" ng-click="changeSection(3)" class="button button-positive button-block">3</button>
+        <button id="bedMTerkoppling1-button166" ng-class="{'active': activeSection==4}" ng-click="changeSection(4)" class="button button-positive button-block">4</button>
+        <button id="bedMTerkoppling1-button167" ng-class="{'active': activeSection==5}" ng-click="changeSection(5)" class="button button-positive button-block">5</button>
+      </div>
+      <ion-item id="bedMTerkoppling1-list-item105">Timing</ion-item>
+      <div id="bedMTerkoppling1-button-bar62" class="button-bar">
+        <button id="bedMTerkoppling1-button168" ng-class="{'active': activeSection==1}" ng-click="changeSection(1)" class="button button-positive button-block">1</button>
+        <button id="bedMTerkoppling1-button176" ng-class="{'active': activeSection==2}" ng-click="changeSection(2)" class="button button-positive button-block">2</button>
+        <button id="bedMTerkoppling1-button177" ng-class="{'active': activeSection==3}" ng-click="changeSection(3)" class="button button-positive button-block">3</button>
+        <button id="bedMTerkoppling1-button178" ng-class="{'active': activeSection==4}" ng-click="changeSection(4)" class="button button-positive button-block">4</button>
+        <button id="bedMTerkoppling1-button179" ng-class="{'active': activeSection==5}" ng-click="changeSection(5)" class="button button-positive button-block">5</button>
+      </div>
+      <ion-item id="bedMTerkoppling1-list-item125">Budskap</ion-item>
+      <ion-item id="bedMTerkoppling1-list-item150">Goda råd</ion-item>
+      <div id="bedMTerkoppling1-button-bar63" class="button-bar">
+        <button id="bedMTerkoppling1-button180" ng-class="{'active': activeSection==1}" ng-click="changeSection(1)" class="button button-positive button-block">1</button>
+        <button id="bedMTerkoppling1-button181" ng-class="{'active': activeSection==2}" ng-click="changeSection(2)" class="button button-positive button-block">2</button>
+        <button id="bedMTerkoppling1-button182" ng-class="{'active': activeSection==3}" ng-click="changeSection(3)" class="button button-positive button-block">3</button>
+        <button id="bedMTerkoppling1-button183" ng-class="{'active': activeSection==4}" ng-click="changeSection(4)" class="button button-positive button-block">4</button>
+        <button id="bedMTerkoppling1-button184" ng-class="{'active': activeSection==5}" ng-click="changeSection(5)" class="button button-positive button-block">5</button>
+      </div>
+      <div class="item item-body" id="bedMTerkoppling1-list-item-container24">
+        <div id="bedMTerkoppling1-markdown108" class="show-list-numbers-and-dots">
+          <p style="margin-top:0px;color:#000000;font-size:16px;">
+            <strong>1=Inte alls konstruktiva, 5=Mycket konstruktiva</strong>
+          </p>
+        </div>
+      </div>
+      <label class="item item-select" id="bedMTerkoppling1-select17">
+        <span class="input-label">Råd/förslag</span>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </label>
+      <label class="item item-input" id="bedMTerkoppling1-input20">
+        <span class="input-label">Kommentarer</span>
+        <input type="text" placeholder="write your text here">
+      </label>
+      <button id="bedMTerkoppling1-button102" class="button button-positive button-block">Skicka</button>
+    </form>
+  </ion-content>
+</ion-view>
